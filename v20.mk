@@ -277,6 +277,9 @@ PRODUCT_PACKAGES += \
     libjson \
     libxml2
 
+# tcmiface for tcm support
+PRODUCT_PACKAGES += tcmiface
+
 # USB
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
